@@ -39,7 +39,7 @@ export class AppComponent implements OnInit, AfterViewInit{
       this.phoneNumberList = responseData ;
       this.totalRecords = this.phoneNumberList.length;
       this.tableStatus = this.dataTable.DataTable({
-        "pageLength": 5,
+        "pageLength": 10,
         "iDisplayLength": 10,
         "info":true,
         data: this.phoneNumberList,

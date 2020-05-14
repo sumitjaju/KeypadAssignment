@@ -1,10 +1,10 @@
-package com.seeking.dedicate;
+package com.keypad.unittest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DedicateServiceApplicationTests {
+class PhoneNumbersApplicationTests {
 
 	@Test
 	void contextLoads() {
