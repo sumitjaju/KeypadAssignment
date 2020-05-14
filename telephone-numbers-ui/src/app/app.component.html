@@ -1,0 +1,39 @@
+<!-- <app-root></app-root> -->
+<div class="container-md">
+  <div class="jumbotron jumbotron-fluid curved-jumb" >
+      <div class="container-md" style="max-width: 500px;">
+        <!-- <h5>See possible combinations of alphanumeric Phone Numbers.</h5> -->
+        <p class="display-4">Phone Combinations</p>
+        <p class="text-muted">
+          Enter the 10 digit phone number and get all possible combinations of keypad based alpha numeric phone numbers.
+        </p>
+
+      </div>
+
+  </div>
+
+  <div class="container-md" style="width:500px;margin:auto">
+    <form #postForm="ngForm" (ngSubmit)="onCreatePost(postForm.value)">
+      <div class="form-group">
+        <label for="phoneNumber">Please Enter Phone Number.</label>
+        <input type="text" minlength="7" maxlength="10" class="form-control" id="phoneNumber" ngModel name="phoneNumber" aria-describedby="phoneHelp" required>
+        <small id="phoneHelp" class="form-text text-muted">Phone Number should be either 7 or 10 digits only.</small>
+      </div>
+      <button type="submit" class="btn btn-primary" [disabled]="!postForm.valid">Confirm</button>
+      <!-- <button type="button" class="btn btn-link" (click)="onReset()">Reset</button> -->
+    </form>
+
+    <div class="mt-5" >
+      <p class="lead" *ngIf="totalRecords">Total Count Of Combinations: {{ totalRecords }}</p>
+      <table #dataTable class="table table-striped table-bordered mt-5">
+        <thead>
+          <tr >
+            <th scope="col">Phone Number</th>
+          </tr>
+        </thead>
+      </table>
+
+    </div>
+  </div>
+
+</div>

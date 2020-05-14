@@ -1,0 +1,15 @@
+
+.curved-jumb {
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  padding: 30px;
+}
+
+.curved-jumb>h1 {
+  font-weight: 900;
+}
+
+.btn-primary {
+  border-radius: 20px;width:180px;font-weight: 300;
+}
+
