@@ -17,6 +17,9 @@ Thank you for considering my application at Finra. Below are the release notes a
 
 Below are few screenshots which may give you glimbs of UI. 
 
+[Input Page](https://github.com/sumitjaju/KeypadAssignment/blob/master/Finra_2.png) 
+
+[Result page](https://github.com/sumitjaju/KeypadAssignment/blob/master/Finra_1.png)
 
 
 ### Pending items:
