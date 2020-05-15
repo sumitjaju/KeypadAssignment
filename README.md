@@ -12,7 +12,7 @@ Thank you for considering my application at Finra. Below are the release notes a
 
 - User must enter phone number and click on confirm button.
 - User must enter atleast 7 or 10 digit number for the result. 
-- Upon confirm button is clicked the tabel should appear providing all lists of possible combination. 
+- Upon confirm button is clicked the table should appear providing all lists of possible combination. 
 - User should be able to paginate the table to see all phone number combinations. 
 
 Below are few screenshots which may give you glimbs of UI. 
